@@ -10,9 +10,6 @@ body{
     background-image: url('../images/header_bg.png');
     background-repeat: no-repeat;
     background-position: bottom right;
-
-
-
 }
 
 /* nav related styles */
@@ -93,16 +90,19 @@ color: #474747;
 .about-info-container{
     display: flex;
     justify-content: space-between;
-    /* gap:100px;
-    margin-left: 30px;
-} */
+}
 .about-info{
     text-align: center;
 }
 /* i do section styls */
-main section{
+/* main section{
     margin-top: 130px;
-}
+} */
+/* .section{
+    padding: 130px;
+    margin: 130px;
+    border-radius: 10px;
+} */
 .section-title{
         text-align: center;
         font-size: 35px;
@@ -112,4 +112,47 @@ main section{
 
 .section-discription{
     text-align: center;
+    font-size:18px ;
+    color: #757575;
+}
+/* skils section styles */
+
+.skile-section-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px ;
+   
+}
+.skile-section{
+    text-align: center;
+    padding: 10px;
+    /* border: 2px solid tomato; */
+    /* justify-content: center; */
+    margin: 20px;
+  box-shadow: 0 2px 5px 5px ;
+   
+}
+.skile-discription{
+    color: #757575;
+}
+/* resume styles */
+.resume-main-title{
+    text-align: center;
+    margin-bottom: 100px ;
+}
+.resume-conteiner{
+    display: flex;
+    gap: 50px;
+}
+.resume-title{
+    font-size: 30px;
+    font-weight: 700;
+    color: #474747;
+}
+.resume-sup-title, .resume-discription{
+    color: #757575;
+}
+.resume-btn{
+    text-align: center;
+    margin-top: 50px;
 }
