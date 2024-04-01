@@ -156,3 +156,27 @@ color: #474747;
     text-align: center;
     margin-top: 50px;
 }
+/* footer styles */
+.footer{
+    background-color: antiquewhite;
+    margin-top: 20px;
+}
+.footer-container{
+    display: flex;
+    gap: 100px;
+    padding: 130px 230px;
+}
+.footer-colum{
+    width: 50%;
+}
+.footer-social-link{
+    padding-right: 10px;
+}
+input,textarea{
+    display: block;
+    margin-bottom: 25px;
+    width: 100%;
+    padding: 12px 5px 12px 5px;
+    border-radius: 5px;
+
+}
